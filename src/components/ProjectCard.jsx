@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectCard = ({ title, description, image, tech }) => {
+const ProjectCard = ({ title, description, image, tech,demo, code }) => {
   return (
     <div className="bg-dark-300 rounded-xl overflow-hidden
       hover:-translate-y-2 transition duration-300 cursor-pointer"
@@ -34,7 +34,9 @@ const ProjectCard = ({ title, description, image, tech }) => {
 
         <div className="flex gap-2">
           <a
-            href="#"
+            href={demo}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex-1 text-center px-3 py-2 md:px-4 md:py-2.5
             bg-purple rounded-lg font-medium text-sm md:text-base
             hover:bg-purple-700 transition duration-300"
@@ -43,7 +45,9 @@ const ProjectCard = ({ title, description, image, tech }) => {
           </a>
 
           <a
-            href="#"
+            href={code}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex-1 text-center px-3 py-2 md:px-4 md:py-2.5
             border border-purple rounded-lg font-medium text-sm md:text-base
             hover:bg-purple/20 transition duration-300"

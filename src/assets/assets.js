@@ -13,7 +13,6 @@ export const assets = {
     profileImg,
 }
 
-
 export const aboutInfo = [
     {
       icon: FaLightbulb,
@@ -34,8 +33,6 @@ export const aboutInfo = [
       color: 'text-blue'
     }
   ];
-
-
 
 export const skills = [
   {
@@ -70,17 +67,15 @@ export const skills = [
   }
 ];
 
-
-
 export const projects = [
   {
-    title: "Stock Market price prediction webapp",
-    description: "A stock market price prediction webapp uses machine learning algorithms (e.g., LSTM, Random Forest)  to forecast future stock trends based on historical data.",
+    title: "Real-time News Aggregator Web App",
+    description: "A real-time news aggregator using Node.js is a high-performance system designed to collect, process, and display news updates from various sources as they happen.",
     image: projectImg1,
-    tech: ["python","Streamlit","Machine-learning","LSTM"],
+    tech: ["Nodejs","Expressjs","API","Backend"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
-    demo: "#",
-    code: "#",
+    demo: "https://real-time-news-aggregator-ashy.vercel.app/",
+    code: "https://github.com/bhoomi210/Real-time-News-Aggregator",
   },
   {
     title: "Grocify-Website",
@@ -89,7 +84,7 @@ export const projects = [
     tech: ["React.JS", "Firebase", "Tailwind CSS", "Javascript"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
     demo: "#",
-    code: "#",
+    code: "https://github.com/bhoomi210/Grocify-Website",
   },
   {
     title: "Smart Virtual Assistant",
@@ -97,8 +92,8 @@ export const projects = [
     image: projectImg3,
     tech: ["Python", "OpenAI API", "Pyttsx3", "NLP"],
     icons: [FaReact, FaDatabase],
-    demo: "#",
-    code: "#",
+    demo: "https://shifra-voice-assistant.vercel.app/",
+    code: "https://github.com/bhoomi210/Shifra_Voice_Assistant",
   },
   {
     title: "Portfolio Website",
@@ -106,8 +101,8 @@ export const projects = [
     image: projectImg4,
     tech: ["React.js", "Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
+    demo: "https://my-portfolio-six-silk-27.vercel.app/",
+    code: "https://github.com/bhoomi210/My-Portfolio",
   },
   {
     title: "AI-HealthMate",
@@ -115,8 +110,8 @@ export const projects = [
     image: projectImg5,
     tech: ["Python", "API", "Streamlit", "frameworks"],
     icons: [FaReact, FaNodeJs, FaDatabase ],
-    demo: "#",
-    code: "#",
+    demo: "https://aihealthmate-ctcj7p2itzqvcrwqpzzpee.streamlit.app/",
+    code: "https://github.com/bhoomi210/_AI_HealthMate/",
   },
   {
     title: "Coffee-Website",
@@ -124,11 +119,10 @@ export const projects = [
     image: projectImg6,
     tech: ["html", "css", "JavaScript", "Bootstrap"],
     icons: [FaRobot, FaReact, FaCloud],
-    demo: "#",
-    code: "#",
+    demo: "https://coffee-website-seven-lilac.vercel.app/",
+    code: "https://github.com/bhoomi210/Coffee_Website",
   }
 ];
-
 
 export const workData = [
   {
@@ -138,5 +132,11 @@ export const workData = [
     description:
       "Started my career building basic websites & webapps and gradually took on more complex projects as I expected my skill set.",
     color: "purple"
+  },
+  {
+    role: "Mern stack developer trainee",
+    company: "Amar Infotech",
+    duration: "9 Months",
+    description: "During my MERN Stack training at a company,I worked on projects involving frontend development with reactjs & backend development with nodejs and expressjs and database management with mongodb.I implemented CRUD operation, user authentication, RESTful APIs and responsive UI designs. This training enhanced my understanding of software development workflows, version control using Git, and teamwork in a professional environment."
   }
 ];
