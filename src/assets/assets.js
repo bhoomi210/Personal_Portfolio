@@ -83,8 +83,8 @@ export const projects = [
     image: projectImg2,
     tech: ["React.JS", "Firebase", "Tailwind CSS", "Javascript"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "#",
-    code: "https://github.com/bhoomi210/Grocify-Website",
+    demo: "https://grocify-website-blue.vercel.app/",
+    code: "https://github.com/bhoomi210/Grocify_website",
   },
   {
     title: "Smart Virtual Assistant",
