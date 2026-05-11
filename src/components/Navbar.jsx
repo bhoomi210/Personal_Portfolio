@@ -31,7 +31,7 @@ const Navbar = () => {
 
         {/* Toggle Button (Mobile) */}
         <button
-          className="md:hidden text-2xl z-[60]"
+          className="md:hidden text-2xl z-[1000] text-white"
           onClick={() => setShowMenu(!showMenu)}
         >
           {showMenu ? <FaXmark /> : <FaBars />}
@@ -40,10 +40,10 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden fixed inset-0 z-40
-        bg-black/90
+        className={`md:hidden fixed top-0 left-0 w-full h-screen z-[999]
+        bg-black
         transition-all duration-300
-        ${showMenu ? "opacity-100 visible" : "opacity-0 invisible"}`}
+        ${showMenu ? "translate-x-0" : "-translate-x-full"}`}
       >
         <div className="flex flex-col items-center gap-6 pt-28 text-lg">
           {["Home", "About", "Skills", "Projects", "Experience", "Contact"].map(
