@@ -130,7 +130,7 @@ const Contact = () => {
                </a>
 
                 <a
-                  href="https://twitter.com/"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full
@@ -141,7 +141,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="https://facebook.com/"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full
