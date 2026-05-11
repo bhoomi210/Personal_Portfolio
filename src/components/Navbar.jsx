@@ -41,7 +41,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div
         className={`md:hidden fixed inset-0 z-40
-        bg-[#070a13]
+        bg-black/90
         transition-all duration-300
         ${showMenu ? "opacity-100 visible" : "opacity-0 invisible"}`}
       >
